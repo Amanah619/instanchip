@@ -83,7 +83,7 @@
     },
     // Grab Customer (pakai placeholder url_website_baru)
     {
-      href: '{{url_website_baru}}/digital/371313',
+      href: 'https://zaptop.digitalshop.id/digital/371313',
       label: 'grab',
       brandClass: 'grab',
       icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png',
