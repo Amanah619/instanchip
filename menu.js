@@ -149,7 +149,7 @@
       alt: 'Mobile Legends'
     },
     {
-      href: '#',
+      href: 'https://zaptop.digitalshop.id/digital/372227',
       label: 'Free Fire',
       img: 'https://images.bukaolshop.com/hosting/163080/42c82e88f8b4437976.png',
       alt: 'Free Fire'
