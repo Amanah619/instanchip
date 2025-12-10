@@ -161,7 +161,7 @@
       alt: 'Honor of Kings'
     },
     {
-      href: '#',
+      href: 'https://zaptop.digitalshop.id/digital/372243',
       label: 'PUBG Mobile',
       img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
       alt: 'PUBG Mobile'
