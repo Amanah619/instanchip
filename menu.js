@@ -155,15 +155,15 @@
       alt: 'Free Fire'
     },
     {
-      href: '#',
+      href: 'https://zaptop.digitalshop.id/digital/372763',
       label: 'Honor of Kings',
-      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
+      img: 'https://images.bukaolshop.com/hosting/163080/cc99b329227f462661.png',
       alt: 'Honor of Kings'
     },
     {
       href: 'https://zaptop.digitalshop.id/digital/372243',
       label: 'PUBG Mobile',
-      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
+      img: 'https://images.bukaolshop.com/hosting/163080/5cafbc08ffe8444903.png',
       alt: 'PUBG Mobile'
     },
     {
