@@ -167,9 +167,9 @@
       alt: 'PUBG Mobile'
     },
     {
-      href: '#',
+      href: 'https://zaptop.digitalshop.id/digital/372811',
       label: 'Genshin Impact',
-      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
+      img: 'https://images.bukaolshop.com/hosting/163080/224b44be395e475365.png',
       alt: 'Genshin Impact'
     },
     {
