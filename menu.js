@@ -140,7 +140,7 @@
     // --- Tambahkan item e-wallet baru di bawah sini kalau perlu ---
   ];
 
-  // --- GAME (bottom sheet game) ---
+// --- GAME (bottom sheet game) ---
   const GAME_ITEMS = [
     {
       href: 'https://zaptop.digitalshop.id/digital/371617',
@@ -167,9 +167,9 @@
       alt: 'PUBG Mobile'
     },
     {
-      href: 'https://zaptop.digitalshop.id/digital/372811',
+      href: '#',
       label: 'Genshin Impact',
-      img: 'https://images.bukaolshop.com/hosting/163080/224b44be395e475365.png',
+      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
       alt: 'Genshin Impact'
     },
     {
@@ -183,10 +183,130 @@
       label: 'Valorant',
       img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
       alt: 'Valorant'
-    }
-    // --- Tambahkan game baru di bawah sini ---
-  ];
+    },
 
+    // --- Tambahkan game baru di bawah sini ---
+    {
+      href: '#',
+      label: 'Roblox',
+      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
+      alt: 'Roblox'
+    },
+    {
+      href: '#',
+      label: 'Minecraft',
+      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
+      alt: 'Minecraft'
+    },
+    {
+      href: '#',
+      label: 'Call of Duty: Mobile',
+      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
+      alt: 'Call of Duty: Mobile'
+    },
+    {
+      href: '#',
+      label: 'Clash of Clans',
+      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
+      alt: 'Clash of Clans'
+    },
+    {
+      href: '#',
+      label: 'Clash Royale',
+      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
+      alt: 'Clash Royale'
+    },
+    {
+      href: '#',
+      label: 'Brawl Stars',
+      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
+      alt: 'Brawl Stars'
+    },
+    {
+      href: '#',
+      label: 'Stumble Guys',
+      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
+      alt: 'Stumble Guys'
+    },
+    {
+      href: '#',
+      label: 'Among Us',
+      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
+      alt: 'Among Us'
+    },
+    {
+      href: '#',
+      label: 'Subway Surfers',
+      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
+      alt: 'Subway Surfers'
+    },
+    {
+      href: '#',
+      label: 'Candy Crush Saga',
+      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
+      alt: 'Candy Crush Saga'
+    },
+    {
+      href: '#',
+      label: 'eFootball',
+      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
+      alt: 'eFootball'
+    },
+    {
+      href: '#',
+      label: 'EA SPORTS FC Mobile',
+      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
+      alt: 'EA SPORTS FC Mobile'
+    },
+    {
+      href: '#',
+      label: '8 Ball Pool',
+      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
+      alt: '8 Ball Pool'
+    },
+    {
+      href: '#',
+      label: 'Honkai: Star Rail',
+      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
+      alt: 'Honkai: Star Rail'
+    },
+    {
+      href: '#',
+      label: 'Honkai Impact 3',
+      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
+      alt: 'Honkai Impact 3'
+    },
+    {
+      href: '#',
+      label: 'Pokemon UNITE',
+      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
+      alt: 'Pokemon UNITE'
+    },
+    {
+      href: '#',
+      label: 'Rise of Kingdoms',
+      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
+      alt: 'Rise of Kingdoms'
+    },
+    {
+      href: '#',
+      label: 'Lords Mobile',
+      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
+      alt: 'Lords Mobile'
+    },
+    {
+      href: '#',
+      label: 'Ragnarok X: Next Generation',
+      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
+      alt: 'Ragnarok X: Next Generation'
+    },
+    {
+      href: '#',
+      label: 'Ragnarok M: Eternal Love',
+      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
+      alt: 'Ragnarok M: Eternal Love'
+    }
+  ];
   // --- MENU "LAINNYA" (sheet utama) ---
   const LAINNYA_ITEMS = [
     {
