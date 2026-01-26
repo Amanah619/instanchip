@@ -199,7 +199,7 @@
       alt: 'Minecraft'
     },
     {
-      href: '#',
+      href: 'https://zaptop.digitalshop.id/digital/378143',
       label: 'Call of Duty: Mobile',
       img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
       alt: 'Call of Duty: Mobile'
