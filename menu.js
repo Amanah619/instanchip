@@ -179,7 +179,7 @@
       alt: 'Arena Breakout'
     },
     {
-      href: '#',
+      href: 'https://zaptop.digitalshop.id/digital/372815',
       label: 'Valorant',
       img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
       alt: 'Valorant'
