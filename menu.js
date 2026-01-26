@@ -173,7 +173,7 @@
       alt: 'Genshin Impact'
     },
     {
-      href: '#',
+      href: 'https://zaptop.digitalshop.id/digital/372813',
       label: 'Arena Breakout',
       img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
       alt: 'Arena Breakout'
