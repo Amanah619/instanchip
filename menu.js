@@ -177,10 +177,10 @@
       alt: 'Roblox'
     },
     {
-      href: '#',
-      label: 'Minecraft',
+      href: 'https://zaptop.digitalshop.id/digital/380835',
+      label: 'VCR Gemschool',
       img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
-      alt: 'Minecraft'
+      alt: 'gemschool'
     },
     {
       href: 'https://zaptop.digitalshop.id/digital/378143',
@@ -189,22 +189,22 @@
       alt: 'Call of Duty: Mobile'
     },
     {
-      href: '#',
+      href: 'https://zaptop.digitalshop.id/digital/380834',
       label: 'Clash of Clans',
       img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
       alt: 'Clash of Clans'
     },
     {
-      href: '#',
+      href: 'https://zaptop.digitalshop.id/digital/379967',
       label: 'Clash Royale',
       img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
       alt: 'Clash Royale'
     },
     {
-      href: '#',
-      label: 'Brawl Stars',
+      href: 'https://zaptop.digitalshop.id/digital/380836',
+      label: 'Marvelsuperwar',
       img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
-      alt: 'Brawl Stars'
+      alt: 'Marvelsuperwar'
     },
     {
       href: '#',
