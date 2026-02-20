@@ -66,7 +66,7 @@
       href: 'https://zaptop.digitalshop.id/digital/381424',
       label: 'Google Play',
       alt: 'Google Play'
-    }
+    },
 
     {
       href: 'https://zaptop.digitalshop.id/digital/381436',
