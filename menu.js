@@ -11,308 +11,75 @@
 
   // --- E-WALLET (bottom sheet) ---
   const EWALLET_ITEMS = [
-    {
-      href: 'https://zaptop.digitalshop.id/digital/366992',
-      label: 'Bebas Nominal',
-      brandClass: 'free',
-      icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png',
-      alt: 'Bebas Nominal'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/369581',
-      label: 'Dana',
-      brandClass: 'dana',
-      icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png',
-      alt: 'DANA'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/369582',
-      label: 'Ovo',
-      brandClass: 'ovo',
-      icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png',
-      alt: 'OVO'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/369727',
-      label: 'Maxim',
-      brandClass: 'maxim dark',
-      icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png',
-      alt: 'Maxim'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/369917',
-      label: 'Gopay Driver',
-      brandClass: 'gopay',
-      icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png',
-      alt: 'GoPay Driver'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/371062',
-      label: 'Shopeepay',
-      brandClass: 'spay',
-      icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png',
-      alt: 'ShopeePay'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/371182',
-      label: 'Gopay Customer',
-      brandClass: 'gopay',
-      icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png',
-      alt: 'GoPay Customer'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/371292',
-      label: 'Link aja',
-      brandClass: 'linkaja',
-      icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png',
-      alt: 'LinkAja'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/371296',
-      label: 'Isaku',
-      brandClass: 'isaku',
-      icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png',
-      alt: 'i.Saku'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/371313',
-      label: 'grab',
-      brandClass: 'grab',
-      icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png',
-      alt: 'Grab'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/371328',
-      label: 'grab driver',
-      brandClass: 'grab',
-      icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png',
-      alt: 'Grab Driver'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/371329',
-      label: 'shope driver',
-      brandClass: 'spay',
-      icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png',
-      alt: 'Shopee Driver'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/371331',
-      label: 'kaspro',
-      brandClass: 'kaspro',
-      icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png',
-      alt: 'KasPro'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/371332',
-      label: 'Astrapay',
-      brandClass: 'astrapay',
-      icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png',
-      alt: 'AstraPay'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/371343',
-      label: 'doku',
-      brandClass: 'doku',
-      icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png',
-      alt: 'DOKU'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/371614',
-      label: 'indriver',
-      brandClass: 'indriver',
-      icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png',
-      alt: 'inDriver'
-    }
+    // ... (Data e-wallet tetap sama persis)
+    { href: 'https://zaptop.digitalshop.id/digital/366992', label: 'Bebas Nominal', brandClass: 'free', icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png', alt: 'Bebas Nominal' },
+    { href: 'https://zaptop.digitalshop.id/digital/369581', label: 'Dana', brandClass: 'dana', icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png', alt: 'DANA' },
+    { href: 'https://zaptop.digitalshop.id/digital/369582', label: 'Ovo', brandClass: 'ovo', icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png', alt: 'OVO' },
+    { href: 'https://zaptop.digitalshop.id/digital/369727', label: 'Maxim', brandClass: 'maxim dark', icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png', alt: 'Maxim' },
+    { href: 'https://zaptop.digitalshop.id/digital/369917', label: 'Gopay Driver', brandClass: 'gopay', icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png', alt: 'GoPay Driver' },
+    { href: 'https://zaptop.digitalshop.id/digital/371062', label: 'Shopeepay', brandClass: 'spay', icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png', alt: 'ShopeePay' },
+    { href: 'https://zaptop.digitalshop.id/digital/371182', label: 'Gopay Customer', brandClass: 'gopay', icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png', alt: 'GoPay Customer' },
+    { href: 'https://zaptop.digitalshop.id/digital/371292', label: 'Link aja', brandClass: 'linkaja', icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png', alt: 'LinkAja' },
+    { href: 'https://zaptop.digitalshop.id/digital/371296', label: 'Isaku', brandClass: 'isaku', icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png', alt: 'i.Saku' },
+    { href: 'https://zaptop.digitalshop.id/digital/371313', label: 'grab', brandClass: 'grab', icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png', alt: 'Grab' },
+    { href: 'https://zaptop.digitalshop.id/digital/371328', label: 'grab driver', brandClass: 'grab', icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png', alt: 'Grab Driver' },
+    { href: 'https://zaptop.digitalshop.id/digital/371329', label: 'shope driver', brandClass: 'spay', icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png', alt: 'Shopee Driver' },
+    { href: 'https://zaptop.digitalshop.id/digital/371331', label: 'kaspro', brandClass: 'kaspro', icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png', alt: 'KasPro' },
+    { href: 'https://zaptop.digitalshop.id/digital/371332', label: 'Astrapay', brandClass: 'astrapay', icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png', alt: 'AstraPay' },
+    { href: 'https://zaptop.digitalshop.id/digital/371343', label: 'doku', brandClass: 'doku', icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png', alt: 'DOKU' },
+    { href: 'https://zaptop.digitalshop.id/digital/371614', label: 'indriver', brandClass: 'indriver', icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png', alt: 'inDriver' }
   ];
 
-  // --- GAME (bottom sheet game) ---
-  // DATA ASLI TETAP DISIMPAN (TIDAK DIHAPUS) AGAR FUNGSI TIDAK RUSAK
+  // --- GAME (bottom sheet game - HANYA TOPUP) ---
   const GAME_ITEMS = [
-    {
-      href: 'https://zaptop.digitalshop.id/digital/371617',
-      label: 'Mobile Legends',
-      img: 'https://images.bukaolshop.com/hosting/163080/2f5dab4809d9918194.png',
-      alt: 'Mobile Legends'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/372227',
-      label: 'Free Fire',
-      img: 'https://images.bukaolshop.com/hosting/163080/42c82e88f8b4437976.png',
-      alt: 'Free Fire'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/372763',
-      label: 'Honor of Kings',
-      img: 'https://images.bukaolshop.com/hosting/163080/cc99b329227f462661.png',
-      alt: 'Honor of Kings'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/372243',
-      label: 'PUBG Mobile',
-      img: 'https://images.bukaolshop.com/hosting/163080/5cafbc08ffe8444903.png',
-      alt: 'PUBG Mobile'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/372811',
-      label: 'Genshin Impact',
-      img: 'https://images.bukaolshop.com/hosting/163080/224b44be395e475365.png',
-      alt: 'Genshin Impact'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/372813',
-      label: 'Arena Breakout',
-      img: 'https://images.bukaolshop.com/hosting/163080/747234fde635125801.png',
-      alt: 'Arena Breakout'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/372815',
-      label: 'Valorant',
-      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
-      alt: 'Valorant'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/378141',
-      label: 'Roblox',
-      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
-      alt: 'Roblox'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/380835',
-      label: 'VCR Gemschool',
-      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
-      alt: 'gemschool'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/378143',
-      label: 'Call of Duty: Mobile',
-      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
-      alt: 'Call of Duty: Mobile'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/380834',
-      label: 'Clash of Clans',
-      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
-      alt: 'Clash of Clans'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/379967',
-      label: 'Clash Royale',
-      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
-      alt: 'Clash Royale'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/380836',
-      label: 'Marvelsuperwar',
-      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
-      alt: 'Marvelsuperwar'
-    },
-    {
-      href: 'https://zaptop.digitalshop.id/digital/381422',
-      label: 'Magic Chees',
-      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
-      alt: 'Magic Chees'
-    },
+    { href: 'https://zaptop.digitalshop.id/digital/371617', label: 'Mobile Legends', alt: 'Mobile Legends' },
+    { href: 'https://zaptop.digitalshop.id/digital/372227', label: 'Free Fire', alt: 'Free Fire' },
+    { href: 'https://zaptop.digitalshop.id/digital/372763', label: 'Honor of Kings', alt: 'Honor of Kings' },
+    { href: 'https://zaptop.digitalshop.id/digital/372243', label: 'PUBG Mobile', alt: 'PUBG Mobile' },
+    { href: 'https://zaptop.digitalshop.id/digital/372811', label: 'Genshin Impact', alt: 'Genshin Impact' },
+    { href: 'https://zaptop.digitalshop.id/digital/372813', label: 'Arena Breakout', alt: 'Arena Breakout' },
+    { href: 'https://zaptop.digitalshop.id/digital/372815', label: 'Valorant', alt: 'Valorant' },
+    { href: 'https://zaptop.digitalshop.id/digital/378141', label: 'Roblox', alt: 'Roblox' },
+    { href: 'https://zaptop.digitalshop.id/digital/380835', label: 'VCR Gemschool', alt: 'gemschool' },
+    { href: 'https://zaptop.digitalshop.id/digital/378143', label: 'Call of Duty: Mobile', alt: 'Call of Duty: Mobile' },
+    { href: 'https://zaptop.digitalshop.id/digital/380834', label: 'Clash of Clans', alt: 'Clash of Clans' },
+    { href: 'https://zaptop.digitalshop.id/digital/379967', label: 'Clash Royale', alt: 'Clash Royale' },
+    { href: 'https://zaptop.digitalshop.id/digital/380836', label: 'Marvelsuperwar', alt: 'Marvelsuperwar' },
+    { href: 'https://zaptop.digitalshop.id/digital/381422', label: 'Magic Chees', alt: 'Magic Chees' },
+    { href: '#', label: 'Subway Surfers', alt: 'Subway Surfers' },
+    { href: '#', label: 'Candy Crush Saga', alt: 'Candy Crush Saga' },
+    { href: '#', label: 'eFootball', alt: 'eFootball' },
+    { href: '#', label: 'EA SPORTS FC Mobile', alt: 'EA SPORTS FC Mobile' },
+    { href: '#', label: '8 Ball Pool', alt: '8 Ball Pool' },
+    { href: '#', label: 'Honkai: Star Rail', alt: 'Honkai: Star Rail' },
+    { href: '#', label: 'Honkai Impact 3', alt: 'Honkai Impact 3' },
+    { href: '#', label: 'Pokemon UNITE', alt: 'Pokemon UNITE' },
+    { href: '#', label: 'Rise of Kingdoms', alt: 'Rise of Kingdoms' },
+    { href: '#', label: 'Lords Mobile', alt: 'Lords Mobile' },
+    { href: '#', label: 'Ragnarok X: Next Generation', alt: 'Ragnarok X: Next Generation' },
+    { href: '#', label: 'Ragnarok M: Eternal Love', alt: 'Ragnarok M: Eternal Love' }
+  ];
+
+  // --- VOUCHER (TAMBAHAN BARU KHUSUS TAB VOUCHER) ---
+  const VOUCHER_ITEMS = [
     {
       href: 'https://zaptop.digitalshop.id/digital/381424',
       label: 'Google Play',
-      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
       alt: 'Google Play'
-    },
-    {
-      href: '#',
-      label: 'Subway Surfers',
-      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
-      alt: 'Subway Surfers'
-    },
-    {
-      href: '#',
-      label: 'Candy Crush Saga',
-      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
-      alt: 'Candy Crush Saga'
-    },
-    {
-      href: '#',
-      label: 'eFootball',
-      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
-      alt: 'eFootball'
-    },
-    {
-      href: '#',
-      label: 'EA SPORTS FC Mobile',
-      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
-      alt: 'EA SPORTS FC Mobile'
-    },
-    {
-      href: '#',
-      label: '8 Ball Pool',
-      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
-      alt: '8 Ball Pool'
-    },
-    {
-      href: '#',
-      label: 'Honkai: Star Rail',
-      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
-      alt: 'Honkai: Star Rail'
-    },
-    {
-      href: '#',
-      label: 'Honkai Impact 3',
-      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
-      alt: 'Honkai Impact 3'
-    },
-    {
-      href: '#',
-      label: 'Pokemon UNITE',
-      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
-      alt: 'Pokemon UNITE'
-    },
-    {
-      href: '#',
-      label: 'Rise of Kingdoms',
-      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
-      alt: 'Rise of Kingdoms'
-    },
-    {
-      href: '#',
-      label: 'Lords Mobile',
-      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
-      alt: 'Lords Mobile'
-    },
-    {
-      href: '#',
-      label: 'Ragnarok X: Next Generation',
-      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
-      alt: 'Ragnarok X: Next Generation'
-    },
-    {
-      href: '#',
-      label: 'Ragnarok M: Eternal Love',
-      img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
-      alt: 'Ragnarok M: Eternal Love'
     }
+    // Nanti Mas Adi bisa tambahin voucher lain di sini (seperti Voucher Garena, Steam Wallet, dll)
   ];
+
   // --- MENU "LAINNYA" (sheet utama) ---
   const LAINNYA_ITEMS = [
-    {
-      href: '#',
-      label: 'Telepon Pascabayar',
-      iconName: 'ring_volume'
-    },
-    {
-      href: '#',
-      label: 'PBB',
-      iconName: 'home'
-    },
-    {
-      href: '#',
-      label: 'Bayar Tagihan',
-      iconName: 'request_quote'
-    }
+    { href: '#', label: 'Telepon Pascabayar', iconName: 'ring_volume' },
+    { href: '#', label: 'PBB', iconName: 'home' },
+    { href: '#', label: 'Bayar Tagihan', iconName: 'request_quote' }
   ];
+
 
   /* =========================================================
    * 2. FUNGSI RENDER TILE
-   * - Semua rendering terpusat di sini.
    * =======================================================*/
 
   function renderEwalletMenu() {
@@ -344,8 +111,6 @@
     });
   }
 
-  let gameTiles = []; // dipakai untuk filter search
-
   function renderGameMenu() {
     const grid = root.querySelector('#game-grid');
     if (!grid) return;
@@ -362,12 +127,7 @@
 
       const img = document.createElement('img');
       img.className = 'cuan-op';
-      
-      // DISINI PERUBAHANNYA: 
-      // Kita memaksa semua gambar memakai variabel GLOBAL_GAME_ICON
-      // Data 'item.img' tetap ada di array tapi tidak dipakai di tampilan ini
       img.src = GLOBAL_GAME_ICON; 
-      
       img.alt = item.alt || item.label || '';
 
       const label = document.createElement('span');
@@ -379,9 +139,37 @@
       a.appendChild(label);
       grid.appendChild(a);
     });
+  }
 
-    // update list tile untuk pencarian
-    gameTiles = Array.from(grid.querySelectorAll('.tile'));
+  // --- FUNGSI BARU: RENDER VOUCHER ---
+  function renderVoucherMenu() {
+    const grid = root.querySelector('#voucher-grid');
+    if (!grid) return;
+    grid.innerHTML = '';
+
+    VOUCHER_ITEMS.forEach(item => {
+      const a = document.createElement('a');
+      a.href = item.href || '#';
+      a.className = 'tile';
+      a.title = item.label || '';
+
+      const ic = document.createElement('span');
+      ic.className = 'ic';
+
+      const img = document.createElement('img');
+      img.className = 'cuan-op';
+      img.src = GLOBAL_GAME_ICON; 
+      img.alt = item.alt || item.label || '';
+
+      const label = document.createElement('span');
+      label.className = 'label';
+      label.textContent = item.label || '';
+
+      ic.appendChild(img);
+      a.appendChild(ic);
+      a.appendChild(label);
+      grid.appendChild(a);
+    });
   }
 
   function renderLainnyaMenu() {
@@ -412,16 +200,16 @@
     });
   }
 
-  // Render awal semua menu
+  // Eksekusi render semua menu
   renderEwalletMenu();
   renderGameMenu();
+  renderVoucherMenu(); // Memanggil render voucher
   renderLainnyaMenu();
 
   /* =========================================================
    * 3. LOGIKA PERILAKU (saldo, sheet, search, popup, ripple)
    * =======================================================*/
 
-  // Getaran halus saat sheet drop-up muncul
   function softVibrate() {
     try {
       if (navigator && typeof navigator.vibrate === 'function') {
@@ -506,7 +294,9 @@
   const openGameBtn = root.querySelector('.open-game');
 
   const gameSearchInput = root.querySelector('#game-search-input');
-  const gameGrid        = root.querySelector('#game-grid');
+  
+  // Ambil data tile dari kedua tab untuk pencarian
+  let allGameTiles = [];
 
   function openGame() {
     if (!ovlG || !sheetG) return;
@@ -531,29 +321,30 @@
     if (gameSearchInput) {
       gameSearchInput.value = '';
     }
-    if (gameTiles && gameTiles.length) {
-      gameTiles.forEach(t => {
+    
+    // Kembalikan semua pencarian saat pop-up ditutup
+    allGameTiles = Array.from(root.querySelectorAll('#game-grid .tile, #voucher-grid .tile'));
+    if (allGameTiles && allGameTiles.length) {
+      allGameTiles.forEach(t => {
         t.style.display = 'flex';
       });
     }
   }
 
-  // Filter game berdasarkan input search
+  // --- LOGIKA PENCARIAN GABUNGAN (Game & Voucher) ---
   if (gameSearchInput) {
     gameSearchInput.addEventListener('input', function () {
       const q = (this.value || '').trim().toLowerCase();
 
-      // jaga-jaga kalau suatu saat render ulang game
-      if (gameGrid) {
-        gameTiles = Array.from(gameGrid.querySelectorAll('.tile'));
-      }
+      // Selalu update list tile dari kedua wadah
+      allGameTiles = Array.from(root.querySelectorAll('#game-grid .tile, #voucher-grid .tile'));
 
       if (!q) {
-        gameTiles.forEach(t => { t.style.display = 'flex'; });
+        allGameTiles.forEach(t => { t.style.display = 'flex'; });
         return;
       }
 
-      gameTiles.forEach(t => {
+      allGameTiles.forEach(t => {
         const lblEl = t.querySelector('.label');
         const title = (t.getAttribute('title') || '').toLowerCase();
         const text  = (lblEl ? lblEl.textContent : '').toLowerCase();
