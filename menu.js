@@ -207,16 +207,16 @@
       alt: 'Marvelsuperwar'
     },
     {
-      href: '#',
-      label: 'Stumble Guys',
+      href: 'https://zaptop.digitalshop.id/digital/381422',
+      label: 'Magic Chees',
       img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
-      alt: 'Stumble Guys'
+      alt: 'Magic Chees'
     },
     {
-      href: '#',
-      label: 'Among Us',
+      href: 'https://zaptop.digitalshop.id/digital/381424',
+      label: 'Google Play',
       img: 'https://cdn-icons-png.flaticon.com/128/18164/18164980.png',
-      alt: 'Among Us'
+      alt: 'Google Play'
     },
     {
       href: '#',
