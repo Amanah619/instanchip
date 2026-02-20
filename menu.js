@@ -67,6 +67,12 @@
       label: 'Google Play',
       alt: 'Google Play'
     }
+
+    {
+      href: 'https://zaptop.digitalshop.id/digital/381436',
+      label: 'Garena',
+      alt: 'Garena'
+  }
     // Nanti Mas Adi bisa tambahin voucher lain di sini (seperti Voucher Garena, Steam Wallet, dll)
   ];
 
