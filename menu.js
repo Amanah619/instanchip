@@ -11,7 +11,6 @@
 
   // --- E-WALLET (bottom sheet) ---
   const EWALLET_ITEMS = [
-    // ... (Data e-wallet tetap sama persis)
     { href: 'https://zaptop.digitalshop.id/digital/366992', label: 'Bebas Nominal', brandClass: 'free', icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png', alt: 'Bebas Nominal' },
     { href: 'https://zaptop.digitalshop.id/digital/369581', label: 'Dana', brandClass: 'dana', icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png', alt: 'DANA' },
     { href: 'https://zaptop.digitalshop.id/digital/369582', label: 'Ovo', brandClass: 'ovo', icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png', alt: 'OVO' },
@@ -30,7 +29,7 @@
     { href: 'https://zaptop.digitalshop.id/digital/371614', label: 'indriver', brandClass: 'indriver', icon: 'https://cdn-icons-png.flaticon.com/128/12882/12882185.png', alt: 'inDriver' }
   ];
 
-  // --- GAME (bottom sheet game - HANYA TOPUP) ---
+  // --- GAME (TAB TOPUP GAME) ---
   const GAME_ITEMS = [
     { href: 'https://zaptop.digitalshop.id/digital/371617', label: 'Mobile Legends', alt: 'Mobile Legends' },
     { href: 'https://zaptop.digitalshop.id/digital/372227', label: 'Free Fire', alt: 'Free Fire' },
@@ -39,44 +38,41 @@
     { href: 'https://zaptop.digitalshop.id/digital/372811', label: 'Genshin Impact', alt: 'Genshin Impact' },
     { href: 'https://zaptop.digitalshop.id/digital/372813', label: 'Arena Breakout', alt: 'Arena Breakout' },
     { href: 'https://zaptop.digitalshop.id/digital/372815', label: 'Valorant', alt: 'Valorant' },
-    { href: 'https://zaptop.digitalshop.id/digital/378141', label: 'Roblox', alt: 'Roblox' },
-    { href: 'https://zaptop.digitalshop.id/digital/380835', label: 'VCR Gemschool', alt: 'gemschool' },
     { href: 'https://zaptop.digitalshop.id/digital/378143', label: 'Call of Duty: Mobile', alt: 'Call of Duty: Mobile' },
     { href: 'https://zaptop.digitalshop.id/digital/380834', label: 'Clash of Clans', alt: 'Clash of Clans' },
     { href: 'https://zaptop.digitalshop.id/digital/379967', label: 'Clash Royale', alt: 'Clash Royale' },
     { href: 'https://zaptop.digitalshop.id/digital/380836', label: 'Marvelsuperwar', alt: 'Marvelsuperwar' },
-    { href: 'https://zaptop.digitalshop.id/digital/381422', label: 'Magic Chees', alt: 'Magic Chees' },
-    { href: '#', label: 'Subway Surfers', alt: 'Subway Surfers' },
-    { href: '#', label: 'Candy Crush Saga', alt: 'Candy Crush Saga' },
-    { href: '#', label: 'eFootball', alt: 'eFootball' },
-    { href: '#', label: 'EA SPORTS FC Mobile', alt: 'EA SPORTS FC Mobile' },
-    { href: '#', label: '8 Ball Pool', alt: '8 Ball Pool' },
-    { href: '#', label: 'Honkai: Star Rail', alt: 'Honkai: Star Rail' },
-    { href: '#', label: 'Honkai Impact 3', alt: 'Honkai Impact 3' },
-    { href: '#', label: 'Pokemon UNITE', alt: 'Pokemon UNITE' },
-    { href: '#', label: 'Rise of Kingdoms', alt: 'Rise of Kingdoms' },
-    { href: '#', label: 'Lords Mobile', alt: 'Lords Mobile' },
-    { href: '#', label: 'Ragnarok X: Next Generation', alt: 'Ragnarok X: Next Generation' },
-    { href: '#', label: 'Ragnarok M: Eternal Love', alt: 'Ragnarok M: Eternal Love' }
+    { href: 'https://zaptop.digitalshop.id/digital/381422', label: 'Magic Chees', alt: 'Magic Chees' }
+    
+    // ==========================================
+    // PANDUAN MENAMBAH MENU TOPUP GAME BARU:
+    // 1. Tambahkan TANDA KOMA (,) di kurung kurawal } Magic Chees di atas.
+    // 2. Copy paste kode di bawah ini lalu isi datanya:
+    // { href: 'LINK_MENU_DISINI', label: 'NAMA_GAME', alt: 'NAMA_GAME' }
+    // ==========================================
   ];
 
-  // --- VOUCHER (TAMBAHAN BARU KHUSUS TAB VOUCHER) ---
+  // --- VOUCHER (TAB VOUCHER GAME) ---
   const VOUCHER_ITEMS = [
-    {
-      href: 'https://zaptop.digitalshop.id/digital/381424',
-      label: 'Google Play',
-      alt: 'Google Play'
-    },
-
-    {
-      href: 'https://zaptop.digitalshop.id/digital/381436',
-      label: 'Garena',
-      alt: 'Garena'
-  }
-    // Nanti Mas Adi bisa tambahin voucher lain di sini (seperti Voucher Garena, Steam Wallet, dll)
+    { href: 'https://zaptop.digitalshop.id/digital/381424', label: 'Google Play', alt: 'Google Play' },
+    { href: 'https://zaptop.digitalshop.id/digital/381436', label: 'Garena', alt: 'Garena' },
+    { href: 'https://zaptop.digitalshop.id/digital/378141', label: 'Roblox', alt: 'Roblox' },
+    { href: 'https://zaptop.digitalshop.id/digital/380835', label: 'VCR Gemschool', alt: 'gemschool' },
+    { href: '#', label: 'Unipin', alt: 'Unipin' },
+    { href: '#', label: 'Voucher PUBG Mobile', alt: 'Voucher PUBG Mobile' },
+    { href: '#', label: 'Razer Gold', alt: 'Razer Gold' },
+    { href: '#', label: 'Steam Wallet', alt: 'Steam Wallet' },
+    { href: '#', label: 'Point Blank', alt: 'Point Blank' }
+    
+    // ==========================================
+    // PANDUAN MENAMBAH MENU VOUCHER BARU:
+    // 1. Tambahkan TANDA KOMA (,) di kurung kurawal } Point Blank di atas.
+    // 2. Copy paste kode di bawah ini lalu isi datanya:
+    // { href: 'LINK_MENU_DISINI', label: 'NAMA_VOUCHER', alt: 'NAMA_VOUCHER' }
+    // ==========================================
   ];
 
-  // --- MENU "LAINNYA" (sheet utama) ---
+  // --- MENU "LAINNYA" (sheet utama - tetap dibiarkan agar fungsi tidak error) ---
   const LAINNYA_ITEMS = [
     { href: '#', label: 'Telepon Pascabayar', iconName: 'ring_volume' },
     { href: '#', label: 'PBB', iconName: 'home' },
@@ -147,7 +143,6 @@
     });
   }
 
-  // --- FUNGSI BARU: RENDER VOUCHER ---
   function renderVoucherMenu() {
     const grid = root.querySelector('#voucher-grid');
     if (!grid) return;
@@ -209,7 +204,7 @@
   // Eksekusi render semua menu
   renderEwalletMenu();
   renderGameMenu();
-  renderVoucherMenu(); // Memanggil render voucher
+  renderVoucherMenu(); 
   renderLainnyaMenu();
 
   /* =========================================================
